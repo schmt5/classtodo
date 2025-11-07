@@ -18,7 +18,6 @@ const TodosDemo = () => {
       <div
         style={{
           padding: "3rem 2rem 2rem 2rem",
-          borderBottom: "1px solid #e9ecef",
           maxWidth: "900px",
           margin: "0 auto",
         }}
@@ -31,24 +30,15 @@ const TodosDemo = () => {
             fontWeight: "600",
           }}
         >
-          Aufgaben
+          Aufträge
         </h1>
-        <p
-          style={{
-            fontSize: "1rem",
-            color: "#6b6b6b",
-            margin: "0",
-          }}
-        >
-          {currentTodo.description}
-        </p>
       </div>
 
       <div
         style={{
           maxWidth: "900px",
           margin: "0 auto",
-          padding: "2rem",
+          padding: "1rem",
         }}
       >
         <Todos
@@ -56,6 +46,7 @@ const TodosDemo = () => {
           title={currentTodo.title}
           description={currentTodo.description}
           todoItems={currentTodo.todoItems}
+          link={currentTodo.link}
         />
       </div>
     </div>

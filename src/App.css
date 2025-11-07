@@ -151,3 +151,18 @@ main {
     text-decoration: line-through;
     color: #a8a8a6;
 }
+
+/* Global Link Styles */
+a {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #1976d2;
+}
+
+a:hover {
+    color: #0d47a1;
+}
+
+a:visited {
+    color: #1976d2;
+}

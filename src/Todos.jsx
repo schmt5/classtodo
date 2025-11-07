@@ -1,6 +1,6 @@
 import { useLocalStorage } from "usehooks-ts";
 
-const Todos = ({ id, title = "", description = "", todoItems = [] }) => {
+const Todos = ({ id, title = "", description = "", todoItems = [], link }) => {
   // Use local storage to persist todo completion state
   const [completedTodos, setCompletedTodos] = useLocalStorage(
     `todos-${id}`,
@@ -17,7 +17,19 @@ const Todos = ({ id, title = "", description = "", todoItems = [] }) => {
   return (
     <div className="todos-container">
       <h1 className="todos-title">{title}</h1>
-      <p className="todos-description">{description}</p>
+
+      <p className="todos-description">
+        <span>Alle Dokumente für die Aufträge finden Sie </span>
+
+        <a
+          target="_blank"
+          href={link}
+          rel="noopener noreferrer"
+          className="todos-link"
+        >
+          hier
+        </a>
+      </p>
 
       <div className="todos-list">
         {todoItems.map((todo, index) => {

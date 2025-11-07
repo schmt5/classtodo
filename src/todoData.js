@@ -1,8 +1,8 @@
 export const todoData = {
   "word-formatting": {
     title: "Woche 5: Formatierung in Word",
-    description:
-      "Alle Aufträge finden Sie in Teams unter 'Allgemein > Dateien > Woche 5'",
+    description: "",
+    link: "https://www.google.com/",
     todoItems: [
       "Erstellen Sie ein neues Word-Dokument",
       "Fügen Sie eine Überschrift mit Formatvorlage 'Titel' hinzu",
