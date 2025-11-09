@@ -1,6 +1,6 @@
 export const todoData = {
   "pp-tabellen-folienmaster": {
-    title: "Woche 5: Tabellen und Folienmaster",
+    title: "Woche 6: Tabellen und Folienmaster",
     description: "",
     link: "https://erzbe.sharepoint.com/:f:/s/mpa25c-bemed/Eh_gDCsdE09CqEv-kUJ3qDYBaliJozpurq1Gw_On6Hip1Q?e=xBEdvq",
     todoItems: [
